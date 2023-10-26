@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formularios(Forms)</h1>
+    <form>
+      <label for="Nombre">Nombre</label>
+      <input type="text" placeholder="Nombre" id="Nombre" autocomplete="off" />
+      <br />
+      <br />
+      <label for="Contraseña:">Contraseña:</label>
+      <input
+        type="password"
+        placeholder="Contraseña: "
+        id="Contraseña:"
+        autocomplete="off"
+      />
+      <br /><br />
+      <label for="Color">Color</label>
+      <input type="color" name="Color" id="Color" />
+      <br /><br />
+      <label for="Fecha:">Fecha:</label>
+      <input type="date" name="Fecha"" id="Fecha">
+      <br /><br />
+      <label for="Fecha">Fecha</label>
+      <input type="datetime-local" name="Fecha" id="Fecha" />
+      <p>El input para tomar fecha puede ser de tipo date o datetime local</p>
+      <br /><br />
+      <label for="Email">Email</label>
+      <input
+        type="email"
+        placeholder="Email"
+        name="Email"
+        id="Email"
+        autocomplete="False"
+      />
+      <br /><br />
+      <label for="Archivo">Archivo:</label>
+      <input type="file" name="Archivo:" id="Archivo:" />
+      <br /><br />
+      <label for="Imagen">Imagen</label>
+      <input type="image" id="Imagen" />
+      <p>Sugerencia no usar este tipo de input</p>
+      <br /><br />
+      <label for="Numeros">Números</label>
+      <input type="number" name="Numeros" id="Numeros" max="15" min="6" />
+      <br /><br />
+      <label for="Rango">Rango</label>
+      <input
+        type="range"
+        name="Rango"
+        id="Rango"
+        min="0"
+        max="15"
+        value="5"
+        step="5"
+      />
+    </form>
+  </body>
+</html>
